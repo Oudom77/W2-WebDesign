@@ -1,0 +1,50 @@
+img {
+
+  border: dashed black;
+  margin-left: 690px;
+
+}
+
+h1 {
+
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+  background: rgba(255, 218, 185, 0.699);
+  padding: 16px;
+  border-radius: 8px;
+
+}
+
+h2 {
+
+  text-align: center;
+
+}
+
+h3 {
+
+  text-align: center;
+
+}
+
+a {
+
+  display: block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+
+  margin: 0 auto;
+  max-width: 450px;
+  background: rgba(255, 218, 185, 0.699);
+  padding: 16px;
+  border-radius: 16px;
+
+}
+
+body {
+
+  background-image: url("");
+
+}
