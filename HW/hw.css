@@ -1,0 +1,62 @@
+.header h1{
+
+    text-align: center;
+    
+
+}
+
+.header h2{
+
+    text-align: center ;
+
+
+}
+
+.section {
+
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px black;
+    border-radius: 20px;
+
+}
+
+.section p{
+
+    margin: 5px;
+    font-size: 18px;
+
+}
+
+li {
+
+    margin: 5px 0;
+    font-size: 18px;
+
+}
+
+.image{
+
+    margin-left: 35px;
+
+}
+
+.image img{
+
+    width: 180px;
+    height: 180px;
+    object-fit: cover; /* makes all images same size neatly */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+    
+
+}
+
+.image img:hover{
+
+    transform: scale(1.05)
+
+}

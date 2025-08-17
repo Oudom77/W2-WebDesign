@@ -1,0 +1,61 @@
+/* General page look */
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header h1 {
+    font-size: 2.2em;
+    color: #2c3e50;
+}
+.header h3 {
+    color: #555;
+    font-weight: normal;
+}
+
+/* Sections */
+.section {
+    background: white;
+    padding: 20px;
+    margin: 0px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Section headings */
+.section h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+li {
+    margin: 5px 0;
+}
+
+/* Images */
+
+.image-gallery img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover; /* makes all images same size neatly */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+.image-gallery img:hover {
+    transform: scale(1.05); /* zoom effect */
+}
